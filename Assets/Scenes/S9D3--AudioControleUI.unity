@@ -5198,6 +5198,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 499508591}
+  - component: {fileID: 499508592}
   m_Layer: 0
   m_Name: GestionnaireMusique
   m_TagString: Untagged
@@ -5220,6 +5221,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1840375689}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &499508592
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 499508590}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb1e9174c3b45e1498c892de52051edf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _mixer: {fileID: 24100000, guid: 61b090fca8cc1e949baa376a3d5d65e8, type: 2}
 --- !u!1001 &510311633
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11805,7 +11819,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1112803492
 RectTransform:
   m_ObjectHideFlags: 0
@@ -22541,7 +22555,7 @@ AudioSource:
   m_GameObject: {fileID: 3704878176862364124}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 24300002, guid: 61b090fca8cc1e949baa376a3d5d65e8,
+  OutputAudioMixerGroup: {fileID: 7260036098914147852, guid: 61b090fca8cc1e949baa376a3d5d65e8,
     type: 2}
   m_audioClip: {fileID: 8300000, guid: bc8dd133e54e2bb41975ded7b770c300, type: 3}
   m_PlayOnAwake: 1
@@ -22685,7 +22699,7 @@ AudioSource:
   m_GameObject: {fileID: 3704878176976299225}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 24300002, guid: 61b090fca8cc1e949baa376a3d5d65e8,
+  OutputAudioMixerGroup: {fileID: 8333827225032522755, guid: 61b090fca8cc1e949baa376a3d5d65e8,
     type: 2}
   m_audioClip: {fileID: 8300000, guid: cbb29c92c1825b64998c5a0f30d43776, type: 3}
   m_PlayOnAwake: 1
@@ -22814,7 +22828,7 @@ AudioSource:
   m_GameObject: {fileID: 3704878177110467825}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 24300002, guid: 61b090fca8cc1e949baa376a3d5d65e8,
+  OutputAudioMixerGroup: {fileID: 8333827225032522755, guid: 61b090fca8cc1e949baa376a3d5d65e8,
     type: 2}
   m_audioClip: {fileID: 8300000, guid: 4b11cf0dc10a6614f9abc4338a5aa3f4, type: 3}
   m_PlayOnAwake: 1
@@ -22928,7 +22942,7 @@ AudioSource:
   m_GameObject: {fileID: 3704878177122834228}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 24300002, guid: 61b090fca8cc1e949baa376a3d5d65e8,
+  OutputAudioMixerGroup: {fileID: 8333827225032522755, guid: 61b090fca8cc1e949baa376a3d5d65e8,
     type: 2}
   m_audioClip: {fileID: 8300000, guid: 4b11cf0dc10a6614f9abc4338a5aa3f4, type: 3}
   m_PlayOnAwake: 1
@@ -23098,7 +23112,7 @@ AudioSource:
   m_GameObject: {fileID: 3704878177549812636}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 24300002, guid: 61b090fca8cc1e949baa376a3d5d65e8,
+  OutputAudioMixerGroup: {fileID: 8333827225032522755, guid: 61b090fca8cc1e949baa376a3d5d65e8,
     type: 2}
   m_audioClip: {fileID: 8300000, guid: 4b11cf0dc10a6614f9abc4338a5aa3f4, type: 3}
   m_PlayOnAwake: 1
@@ -23242,7 +23256,7 @@ AudioSource:
   m_GameObject: {fileID: 3704878177641181341}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 24300002, guid: 61b090fca8cc1e949baa376a3d5d65e8,
+  OutputAudioMixerGroup: {fileID: 8333827225032522755, guid: 61b090fca8cc1e949baa376a3d5d65e8,
     type: 2}
   m_audioClip: {fileID: 8300000, guid: cbb29c92c1825b64998c5a0f30d43776, type: 3}
   m_PlayOnAwake: 1
@@ -23339,7 +23353,7 @@ AudioSource:
   m_GameObject: {fileID: 3704878178044940567}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 24300002, guid: 61b090fca8cc1e949baa376a3d5d65e8,
+  OutputAudioMixerGroup: {fileID: 8333827225032522755, guid: 61b090fca8cc1e949baa376a3d5d65e8,
     type: 2}
   m_audioClip: {fileID: 8300000, guid: 78877ff3a6ab3214a9e4e2111579b7b6, type: 3}
   m_PlayOnAwake: 1
@@ -23485,7 +23499,7 @@ AudioSource:
   m_GameObject: {fileID: 3704878178233628138}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 24300002, guid: 61b090fca8cc1e949baa376a3d5d65e8,
+  OutputAudioMixerGroup: {fileID: 8333827225032522755, guid: 61b090fca8cc1e949baa376a3d5d65e8,
     type: 2}
   m_audioClip: {fileID: 8300000, guid: 4b11cf0dc10a6614f9abc4338a5aa3f4, type: 3}
   m_PlayOnAwake: 1
@@ -23597,7 +23611,7 @@ AudioSource:
   m_GameObject: {fileID: 3704878178395350170}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 24300002, guid: 61b090fca8cc1e949baa376a3d5d65e8,
+  OutputAudioMixerGroup: {fileID: 8333827225032522755, guid: 61b090fca8cc1e949baa376a3d5d65e8,
     type: 2}
   m_audioClip: {fileID: 8300000, guid: 4b11cf0dc10a6614f9abc4338a5aa3f4, type: 3}
   m_PlayOnAwake: 1
@@ -23726,7 +23740,7 @@ AudioSource:
   m_GameObject: {fileID: 3704878178483458810}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 24300002, guid: 61b090fca8cc1e949baa376a3d5d65e8,
+  OutputAudioMixerGroup: {fileID: 8333827225032522755, guid: 61b090fca8cc1e949baa376a3d5d65e8,
     type: 2}
   m_audioClip: {fileID: 8300000, guid: 4b11cf0dc10a6614f9abc4338a5aa3f4, type: 3}
   m_PlayOnAwake: 1
@@ -23899,7 +23913,7 @@ RectTransform:
   m_Father: {fileID: 4726250701137263006}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 10, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -23984,7 +23998,7 @@ RectTransform:
   m_Father: {fileID: 4726250701220995024}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 10, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -24238,9 +24252,9 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: GestionnaireAudio, Assembly-CSharp
-        m_MethodName: AjusterVolumeMusique
+      - m_Target: {fileID: 499508592}
+        m_TargetAssemblyTypeName: GestionnaireMusique, Assembly-CSharp
+        m_MethodName: ChangerVolumeMusique
         m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -24546,8 +24560,8 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 4726250700884948010}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 1, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 50, y: 12}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -24583,8 +24597,8 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 4726250700936172132}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 1, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 50, y: 12}
   m_Pivot: {x: 0.5, y: 0.5}
